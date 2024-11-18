@@ -6,3 +6,6 @@
 - Se puede visualizar con e lcomando `ls` 
 - Instalarlos con el comando `dkpg - install (nombre del archivo)` *nota: esto es siendo usuario root*
 - Instalar postgreslq con el comando `apt install postgresql`
+
+- Iniciar postgresql `sudo systemctl start postgresql`
+- Verificar el estado de postgre `systemctl status postgresql`
