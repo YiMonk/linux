@@ -151,4 +151,6 @@ Nota: el primer inicio es admin admin
 ----- Aqui siguiente y en el siguiente menu le das save -----
 
 # *Pagina de operador
-![alt text](./images/image-5.png)
+![Menu operador](./images/image-5.png)
+
+----- Despues guardas y ya tienes bacula y baculum configurado en tu maquina debian -----
