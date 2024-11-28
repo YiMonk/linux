@@ -96,19 +96,19 @@ Ahora en un Navegador buscar `Tuip`:9096
 
 
 Nota: el primer inicio es admin admin
-![menu 1 configuracion baculum](image.png)
+![menu 1 configuracion baculum](./images/image.png)
 Llenas el formulario.
 
-![menu 2 configuracion baculum](image-1.png)
+![menu 2 configuracion baculum](./images/image-1.png)
 buscas los path de Bconsole con el comnado `where is`
 
-![menu 3 configuracion baculum](image-3.png)
+![menu 3 configuracion baculum](./images/image-3.png)
 Primero seleccionas YES y en el campo " Get pre-defined paths: " 
 seleccionas el segundo, esto hace que se llenen los campos automaticamente menos el primero 
 Este se llena con  este path " /etc/baculum/Config-api-apache " 
 
-![menu 4 configuracion baculum](image-4.png)
+![menu 4 configuracion baculum](./images/image-4.png)
 aqui siguiente y en el siguiente menu le das save
 
 *Pagina de operador
-![alt text](image-5.png)
+![alt text](./images/image-5.png)
