@@ -121,7 +121,9 @@ Cambia las password de los achivos en la siguiente ruta
 
 -ls 
 
-- nano Nombrearchivo  
+- nano Nombrearchivo
+
+-  systemctl restart bacula-dir.service bacula-fd.service bacula-sd.service
 
 
 -----Con esto ya tienes bacula y baculum operativo-----
