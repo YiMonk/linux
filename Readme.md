@@ -154,3 +154,29 @@ Nota: el primer inicio es admin admin
 ![Menu operador](./images/image-5.png)
 
 ----- Despues guardas y ya tienes bacula y baculum configurado en tu maquina debian -----
+
+
+
+## EN CASO DE TENER UNA INSTALACION FALLIDA O ERRORES
+Para volver a comenzar la instalacion 
+
+dpkg -l | grep bacula | awk '{print $2}' | xargs apt -y remove --purge
+
+dpkg -l | grep postgresql | awk '{print $2}' | xargs apt -y remove --purge
+
+apt remove --purge bacula-postgresql postgresql-13 postgresql-15 postgresql-client-13 postgresql-client-15 postgresql-client-common postgresql-common postgresql-contrib -y
+
+dpkg -l | grep bacula
+
+dpkg -l | grep postgresql
+
+apt --fix-broken install
+
+apt install -y dbconfig-pgsql postgresql-contrib
+
+apt install cifs-utils -y
+
+mount -t cifs -o username=jgomeza,password=OAUypksG //10.156.106.204/c$/Users/jgomeza/Downloads/Telegram Desktop/bacula /storage-device
+
+
+
