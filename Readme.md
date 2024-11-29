@@ -119,7 +119,9 @@ Cambia las password de los achivos en la siguiente ruta
 
 -  cd /opt/bacula/etc
 
-- nano <archivo>  
+-ls 
+
+- nano Nombrearchivo  
 
 
 -----Con esto ya tienes bacula y baculum operativo-----
