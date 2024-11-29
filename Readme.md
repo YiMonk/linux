@@ -115,6 +115,12 @@ EOF
 
 -  chmod g+w /opt/bacula/
 
+Cambia las password de los achivos en la siguiente ruta
+
+-  cd /opt/bacula/etc
+
+- nano <archivo>  
+
 
 -----Con esto ya tienes bacula y baculum operativo-----
 
